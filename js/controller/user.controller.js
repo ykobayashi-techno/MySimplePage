@@ -14,6 +14,8 @@ userControllers.controller('UserCtrl', [ '$scope',
         
         $scope.webList = [
             { title:'google', address:'http://www.google.co.jp/' },
+            { title:'AngularJs', address:'https://angularjs.org/' },
+            { title:'GIGAZINE', address:'http://gigazine.net' },
             { title:'my github', address:'https://github.com/ykobayashi-techno' }
         ];
 	}
