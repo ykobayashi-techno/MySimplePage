@@ -10,6 +10,10 @@
     
     <span ng-repeat="web in webList"><a href="{{web.address}}" target="_blank">{{web.title}}</a>&nbsp;</span>
     
+    <ul>
+        <li ng-repeat="web in webList"><a href="{{web.address}}" target="_blank">{{web.title}}</a>&nbsp;</li>
+    </ul>
+    
 	<form>
         名前検索欄：<input type="text" ng-model="query.name"></input>
 	</form>
