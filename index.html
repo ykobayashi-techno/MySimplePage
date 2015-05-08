@@ -8,7 +8,7 @@
 <body ng-controller="UserCtrl" ng-cloak>
 	<h1>Simple My Page. {{greeting}}</h1>
     
-    <span ng-repeat="web in webList"><a href="{{web.address}}">{{web.title}}</a>&nbsp;</span>
+    <span ng-repeat="web in webList"><a href="{{web.address}}" target="_blank">{{web.title}}</a>&nbsp;</span>
     
 	<form>
         名前検索欄：<input type="text" ng-model="query.name"></input>
