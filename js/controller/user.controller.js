@@ -11,5 +11,10 @@ userControllers.controller('UserCtrl', [ '$scope',
 			{ name:'Cさん', age:26 },
 			{ name:'Dさん', age:28 }
 		];
+        
+        $scope.webList = [
+            { title:'google', address:'http://www.google.co.jp/' },
+            { title:'my github', address:'https://github.com/ykobayashi-techno' }
+        ];
 	}
 ]);
