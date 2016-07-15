@@ -14,7 +14,7 @@
     </ul>
     
 	<form>
-        名前検索欄：<input type="text" ng-model="query.name"></input>
+        名前検索欄です：<input type="text" ng-model="query.name"></input>
 	</form>
 	<ul>
 		<li ng-repeat="item in items | filter:query">{{item.name}}&nbsp;{{item.age}}</li>
